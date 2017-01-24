@@ -47,7 +47,7 @@ and then run `source ~/.bashrc`
 sudo gem update --system
 ```
 
-## Install rails
+## 6. Install rails
 
 ```sh
 gem install rails
