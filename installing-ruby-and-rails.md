@@ -30,11 +30,10 @@ This is necessary in order for gems to compile.
 echo "gem: --user-install" >> ~/.gemrc
 ```
 
-## 4. Add gem directories to your path
-
 Add to your `~/.bashrc`:
 
 ```bash
+export GEM_HOME=$HOME/.gem
 for dir in $HOME/.gem/ruby/*; do
   [ -d "$dir/bin" ] && PATH="${dir}/bin:${PATH}"
 done
